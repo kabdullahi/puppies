@@ -1,0 +1,61 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url('img/bg.jpg');
+    background-position: 100%;
+    border: 1px solid black;
+}
+#site_header {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.main_navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 8px;
+    border: 1px solid white;
+}
+
+#page_content h2, #page_content h3 {
+    color: #1fabe5;
+}
+
+#page_content {
+    background-color: white;
+    padding: 10px
+}
+.pic{
+  height:85px;
+  width: 85px;
+}
+table{
+  border: 1px solid #1fabe5;
+  width: 1000px
+}
+thead {
+  background-color: #1fabe5;
+  color: white;
+}
+.name {
+  background-color: #ff8523;
+  color: white;
+  padding: 25px;
+  margin: 25px;
+}
